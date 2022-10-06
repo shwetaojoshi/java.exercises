@@ -1,4 +1,4 @@
-package Inheritance;
+package com.qa.java.inheritance;
 
 public class Audi extends Car {
 	
