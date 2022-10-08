@@ -1,14 +1,14 @@
-package com.qa.java.inheritance;
+package com.qa.java.polymorphism;
 
 public class Audi extends Car {
-	
+
 	String model ;
 	boolean isAvailable;	
 
 	
 
-	void displayAudiCarDetails() {
-		displayCarDetails();
+	void displayCarDetails() {   // //overridden method
+		super.displayCarDetails();  //calling method from parent class
 		System.out.println("car's model is : " + model);
 		System.out.println("car's availability : " + isAvailable);
 		
@@ -23,5 +23,5 @@ public class Audi extends Car {
 		this.isAvailable = isAvailable;
 	}
 
-	
+
 }
