@@ -2,13 +2,13 @@ package com.qa.java.oop;
 
 public class Product {
 
-	int id;
-	String name;
-	float price;
-	String category;
-	byte rating ;
-	float discountPercentage;
-	boolean isAvailable;
+	public int id;
+	public String name;
+	public float price;
+	public String category;
+	public byte rating ;
+	public float discountPercentage;
+	public boolean isAvailable;
 	
 	static String sellername = "Amazon";
 	static int contact_no = 1234567891;
@@ -34,7 +34,7 @@ public class Product {
 		this.isAvailable = isAvailable;
 	}
 	
-	void productInformation() {
+	public void productInformation() {
 		
 		System.out.println("inside product information method");
 		System.out.println(id);
